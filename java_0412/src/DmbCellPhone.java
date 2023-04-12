@@ -4,6 +4,7 @@ public class DmbCellPhone extends CellPhone {
   int channel;
 
   DmbCellPhone(String model, String color, int channel) {
+//    super(); 생성자가 없으면 기본 생성자 타입으로 컴파일러가 자동으로 추가 -> super()도 자동으로 추가
     this.model = model;
     this.color = color;
     this.channel = channel;
