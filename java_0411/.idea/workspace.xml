@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43b83335-d387-4a4f-a50b-527b084401f5" name="변경" comment="" />
+    <list default="true" id="43b83335-d387-4a4f-a50b-527b084401f5" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PhoneEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PhoneEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Song.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,16 +44,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.BoxEx">
+  <component name="RunManager" selected="애플리케이션.PhoneManager">
     <configuration name="BoxEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BoxEx" />
-      <module name="java_0411" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Car2Ex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Car2Ex" />
       <module name="java_0411" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -62,8 +59,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SongEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SongEx" />
+    <configuration name="PhoneManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PhoneManager" />
+      <module name="java_0411" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RectArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RectArray" />
       <module name="java_0411" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,11 +82,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.PhoneManager" />
+        <item itemvalue="애플리케이션.RectArray" />
         <item itemvalue="애플리케이션.BoxEx" />
         <item itemvalue="애플리케이션.StaticTest" />
-        <item itemvalue="애플리케이션.SongEx" />
         <item itemvalue="애플리케이션.PhoneEx" />
-        <item itemvalue="애플리케이션.Car2Ex" />
       </list>
     </recent_temporary>
   </component>
@@ -96,6 +100,7 @@
       <updated>1681172223114</updated>
       <workItem from="1681172224152" duration="22812000" />
       <workItem from="1681199333997" duration="10000" />
+      <workItem from="1681257411787" duration="11013000" />
     </task>
     <servers />
   </component>

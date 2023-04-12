@@ -1,5 +1,5 @@
 public class Song {
-  public String title;
+  private String title;
 
   public Song(String title) {
     this.title = title;
