@@ -1,7 +1,9 @@
-public class Quiz04ColorPoint extends Quiz04Point{
+package Quiz;
+
+public class ColorPoint extends Point {
   private String color;
 
-  public Quiz04ColorPoint(int x, int y, String color) {
+  public ColorPoint(int x, int y, String color) {
     super(x, y);
     this.color = color;
   }

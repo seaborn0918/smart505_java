@@ -1,7 +1,9 @@
-public class Quiz01Circle {
+package Quiz;
+
+public class Circle {
   private int radius;
 
-  public Quiz01Circle(int radius) {
+  public Circle(int radius) {
     this.radius = radius;
   }
 

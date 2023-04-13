@@ -1,7 +1,9 @@
-public class Quiz01NamedCircle extends Quiz01Circle{
+package Quiz;
+
+public class NamedCircle extends Circle {
   String name;
 
-  public Quiz01NamedCircle(int radius, String name) {
+  public NamedCircle(int radius, String name) {
     super(radius);
     this.name = name;
   }
