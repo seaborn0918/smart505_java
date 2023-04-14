@@ -17,6 +17,6 @@ public abstract class Calculator {
   public void run() {
     input();
     int res = calc();
-    System.out.println("계산된 값은 " + calc());
+    System.out.println("계산된 값은 " + res);
   }
 }

@@ -1,7 +1,5 @@
 package Quiz;
 
-public class Shape {
-  public void draw() {
-    System.out.println("shape");
-  }
+public abstract class Shape {
+  abstract public void draw();
 }

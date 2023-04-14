@@ -1,8 +1,6 @@
 package Quiz;
 
 public class MyAdder extends AdderInterface {
-  int sum = 0;
-
   @Override
   int add(int x, int y) {
     return x + y;
@@ -10,6 +8,7 @@ public class MyAdder extends AdderInterface {
 
   @Override
   int add(int n) {
+    int sum = 0;
     for (int i = 1; i <= n; i++) {
       sum += i;
     }
