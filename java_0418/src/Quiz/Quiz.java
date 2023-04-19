@@ -7,21 +7,18 @@ public class Quiz {
   static Scanner sc = new Scanner(System.in);
 
   public static void quiz01() {
-
-    Vector<Integer> numbers = new Vector<>();
-
-    System.out.println("입력");
+    Vector<Double> numbers = new Vector<>();
+    System.out.println("실수 입력");
     for (int i = 0; i < 5; i++) {
-      numbers.add(sc.nextInt());
+      numbers.add(sc.nextDouble());
     }
 
-    int max = 0;
+    double max = 0;
     for (int i = 0; i < numbers.size(); i++) {
       if (numbers.get(i) > max) {
         max = numbers.get(i);
       }
     }
-
     System.out.println("가장 큰 수는 " + max);
 
   }
@@ -29,14 +26,24 @@ public class Quiz {
   public static void quiz02() {
     ArrayList<String> grade = new ArrayList<>();
 
-    System.out.println("빈 칸으로 분리하여 5개의 학점 입력");
+    System.out.print("빈 칸으로 분리하여 5개의 학점 입력>>");
     for (int i = 0; i < 5; i++) {
       grade.add(sc.next());
     }
 
+    System.out.println();
+
     for (int i = 0; i < 5; i++) {
       if (grade.get(i).equals("A")) {
-        System.out.println(4.0);
+        System.out.print(4.0 + " ");
+      } else if (grade.get(i).equals("B")) {
+        System.out.print(3.0 + " ");
+      } else if (grade.get(i).equals("C")) {
+        System.out.print(2.0 + " ");
+      } else if (grade.get(i).equals("D")) {
+        System.out.print(1.0 + " ");
+      } else if (grade.get(i).equals("F")) {
+        System.out.print(0.0 + " ");
       }
     }
 
@@ -51,40 +58,25 @@ public class Quiz {
     menu.put("카푸치노", 3000);
     menu.put("카페라떼", 3500);
 
-    Set<String> menuKey = menu.keySet();
-    Iterator<String> menuKeyIter = menuKey.iterator();
-
-    while (menuKeyIter.hasNext()) {
-      String key = menuKeyIter.next();
-      System.out.println(key);
-    }
-
-    while (true) {
       System.out.println("에스프레소, 아메리카노, 카푸치노, 카페라떼 있습니다.");
-      System.out.println("주문 >> ");
+    while (true) {
+      System.out.print("주문 >> ");
       String order = sc.next();
       if (order.equals("그만")) {
         break;
       }
 
-//      Set<String> menuKey = menu.keySet();
-//      Iterator<String> menuKeyIter = menuKey.iterator();
-//
-//      while (menuKeyIter.hasNext()) {
-//        String key = menuKeyIter.next();
-//        int i;
-//        for (i = 0; i < menu.size(); i++) {
-//          if (order.equals(key)) {
-//            System.out.println(menu.get(i));
-//          }
-//        }
-//        if (i == menu.size()) {
-//          System.out.println("그런 메뉴 없습니다.");
-//        }
-//      }
+      if (menu.containsKey(order)) {
+        System.out.println(order + "는 " + menu.get(order) + "입니다.");
+      } else {
+        System.out.println("주문한 메뉴가 없습니다.");
+      }
 
     }
+
   }
+
+
 
 
   public static void quiz04() {
@@ -205,11 +197,11 @@ public class Quiz {
 
   public static void main(String[] args) {
 
-//    quiz01(); o
+//    quiz01();
 //    quiz02();
 //    quiz03();
-//    quiz04(); o
-//    quiz05(); o
+//    quiz04();
+    quiz05();
 //    quiz06();
 //    quiz07();
 
