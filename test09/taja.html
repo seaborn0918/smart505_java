@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <script>
+        let input = prompt('입력 >>');
+        let inputArr = [...input];
+
+        function replace(inputArr) {
+            for (let i = 0; i < inputArr.length; i++) {
+                if (inputArr[i] === 'q') {
+                    inputArr[i] = 'e';
+                }
+            }
+            console.log(inputArr.join(''));
+        }
+        replace(inputArr);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
